@@ -1,0 +1,10 @@
+[Unit]
+Description=Timer per il controllo esistenza file
+
+[Timer]
+OnBootSec=10s
+OnUnitActiveSec=2s
+Unit=check_file.service
+
+[Install]
+WantedBy=timers.target

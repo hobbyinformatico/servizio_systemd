@@ -1,0 +1,9 @@
+[Unit]
+Description=Controllo esistenza file
+
+[Service]
+Type=simple
+ExecStart=/home/utente/ck_file.sh
+
+[Install]
+WantedBy=default.target
